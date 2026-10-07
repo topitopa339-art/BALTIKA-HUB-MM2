@@ -76,7 +76,11 @@ local Config = {
     spinbotEnabled = false,
     spinbotSpeed = 50,
     clickTpEnabled = false,
-    mouseUnlockEnabled = false
+    mouseUnlockEnabled = false,
+    -- оформление интерфейса (см. src/ui.lua)
+    uiAccent = 8150271, -- акцентный цвет, упакованный RGB (по умолчанию violet 124,92,255)
+    uiScale = 100,      -- масштаб интерфейса в %
+    uiMobile = "auto"   -- "auto" | "on" | "off" (компактная мобильная раскладка)
 }
 
 local Conns = {
